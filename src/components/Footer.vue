@@ -1,22 +1,22 @@
 <template>
   <div id="footer">
     <ul>
-      <li>
+      <router-link tag="li" to="/main">
         <i class="iconfont icon-music"></i>
         <p>首页</p>
-      </li>
-      <li>
+      </router-link>
+      <router-link tag="li" to="/audio">
         <i class="iconfont icon-play"></i>
         <p>视频</p>
-      </li>
-      <li>
+      </router-link>
+      <router-link tag="li" to="/putong">
         <i class="iconfont icon-yun"></i>
         <p>扑通</p>
-      </li>
-      <li>
+      </router-link>
+      <router-link tag="li" to="/mine">
         <i class="iconfont icon-wode"></i>
         <p>我的</p>
-      </li>
+      </router-link>
     </ul>
   </div>
 </template>
@@ -44,6 +44,10 @@ export default {
 #footer ul li{
   flex: 1;
   text-align: center;
+}
+
+#footer ul li.router-link-active{
+  color: rgb(55, 230, 55);
 }
 
 #footer ul li i{

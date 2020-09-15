@@ -9,6 +9,18 @@ const routes = [
     component: () => import('@/views/Main')
   },
   {
+    path: '/audio',
+    component: () => import('@/views/Audio')
+  },
+  {
+    path: '/putong',
+    component: () => import('@/views/Putong')
+  },
+  {
+    path: '/mine',
+    component: () => import('@/views/Mine')
+  },
+  {
     path: '/*',
     redirect: '/main'
   }

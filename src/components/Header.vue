@@ -37,10 +37,11 @@ export default {
   data () {
     return {
       keywords: [
-        'iPad pro',
-        'Macbook pro',
-        'iMac',
-        'iPhone'
+        'Life',
+        '我的回忆不是我的',
+        '情感的禁区',
+        '你就不要想起我',
+        '来自天堂的魔鬼'
       ],
       isFocusing: false,
       currentIndex: 0,

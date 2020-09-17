@@ -10,15 +10,15 @@ const routes = [
     children: [
       {
         path: 'recommend',
-        component: () => import('@/components/main/Recommend')
+        component: () => import('@/views/main/Recommend')
       },
       {
         path: 'music_hall',
-        component: () => import('@/components/main/Music_hall')
+        component: () => import('@/views/main/Music_hall')
       },
       {
         path: 'tingshu',
-        component: () => import('@/components/main/Tingshu')
+        component: () => import('@/views/main/Tingshu')
       },
       {
         path: '/*',
